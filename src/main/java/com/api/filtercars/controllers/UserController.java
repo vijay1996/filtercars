@@ -6,7 +6,6 @@ import com.api.filtercars.services.UserCRUDService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.security.Principal;
 
 @RestController
 @RequestMapping(value = "/api/user")
@@ -19,8 +18,8 @@ public class UserController {
     }
 
     @GetMapping("/")
-    public String sayHi(Principal principal) {
-        return "hello, " + principal.getName();
+    public String sayHi() {
+        return "hello, User!";
     }
 
     @PostMapping("/save")
