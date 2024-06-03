@@ -1,4 +1,4 @@
-package com.api.filtercars.entities;
+package com.petpass.service.entities;
 
 import jakarta.persistence.*;
 import lombok.Data;

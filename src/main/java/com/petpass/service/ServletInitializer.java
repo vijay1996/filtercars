@@ -1,4 +1,4 @@
-package com.api.filtercars;
+package com.petpass.service;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

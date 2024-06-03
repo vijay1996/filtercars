@@ -1,4 +1,4 @@
-package com.api.filtercars.common.dto;
+package com.petpass.service.common.dto;
 
 import lombok.Data;
 

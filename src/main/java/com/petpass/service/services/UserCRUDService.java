@@ -1,11 +1,10 @@
-package com.api.filtercars.services;
+package com.petpass.service.services;
 
-import com.api.filtercars.common.crudService.CRUDService;
-import com.api.filtercars.common.dto.ErrorDTO;
-import com.api.filtercars.common.dto.ResponseDTO;
-import com.api.filtercars.dto.UserDTO;
-import com.api.filtercars.entities.User;
-import com.api.filtercars.repositories.UserRepository;
+import com.petpass.service.common.crudService.CRUDService;
+import com.petpass.service.common.dto.ResponseDTO;
+import com.petpass.service.dto.UserDTO;
+import com.petpass.service.entities.User;
+import com.petpass.service.repositories.UserRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.dao.DataAccessException;
 import org.springframework.http.HttpStatusCode;

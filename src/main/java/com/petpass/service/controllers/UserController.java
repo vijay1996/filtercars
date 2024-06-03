@@ -1,8 +1,8 @@
-package com.api.filtercars.controllers;
+package com.petpass.service.controllers;
 
-import com.api.filtercars.common.dto.ResponseDTO;
-import com.api.filtercars.dto.UserDTO;
-import com.api.filtercars.services.UserCRUDService;
+import com.petpass.service.common.dto.ResponseDTO;
+import com.petpass.service.dto.UserDTO;
+import com.petpass.service.services.UserCRUDService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

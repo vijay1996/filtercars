@@ -1,6 +1,6 @@
-package com.api.filtercars.common.crudService;
+package com.petpass.service.common.crudService;
 
-import com.api.filtercars.common.dto.ErrorDTO;
+import com.petpass.service.common.dto.ErrorDTO;
 import org.springframework.stereotype.Service;
 
 @Service
