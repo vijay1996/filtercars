@@ -8,11 +8,11 @@
 		<version>3.3.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.api</groupId>
-	<artifactId>filtercars</artifactId>
+	<groupId>com.petpass</groupId>
+	<artifactId>service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>filtercars</name>
+	<name>petpass-service</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
